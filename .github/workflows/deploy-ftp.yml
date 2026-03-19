@@ -27,7 +27,7 @@ jobs:
       - name: Build
         run: npm run build
         env:
-          VITE_BASE_URL: /assistmed/
+          VITE_BASE_URL: /
 
       - name: FTP Deploy Locaweb
         uses: locaweb/ftp-deploy@1.0.0
